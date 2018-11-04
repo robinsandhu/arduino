@@ -15,7 +15,7 @@ void loop() {
   Serial.println("Counter on LED Blinks: ");
   for(i=1;i<=num;i++){
     digitalWrite(13,LOW);
-    delay(250);
+    delay(300);
     digitalWrite(13,HIGH);
     delay(300);
     Serial.print(i);
