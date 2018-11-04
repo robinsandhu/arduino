@@ -17,7 +17,7 @@ void loop() {
     digitalWrite(13,LOW);
     delay(300);
     digitalWrite(13,HIGH);
-    delay(300);
+    delay(250);
     Serial.print(i);
   }  
 }
